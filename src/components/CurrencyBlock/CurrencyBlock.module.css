@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.exchanges {
+    display: flex;
+    flex-direction: column;
+    width: 16.4vw;
+}
+
+.exchanges button:first-child {
+    border-radius: 3px 0px 0px 3px;
+    border-right: none;
+}
+
+.exchanges button:not(:first-child):not(:last-child) {
+    border-radius: 0;
+    border-right: none;
+}
+
+.exchanges button:last-child {
+    border-radius: 0px 3px 3px 0px;
+}
+
+.button {
+    width: 4.072916666666667vw;
+    height: 28px;
+    font-family: 'Roboto';
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    color: #c6c6c6;
+
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: white;
+}
+
+.button:hover {
+    background: #aa68fe;
+    color: white;
+    cursor: pointer;
+}
+
+.active {
+    background: #833ae0;
+    color: white;
+}
+
+.inputs {
+    width: 16.4vw;
+    height: 102px;
+    margin-top: 8%;
+
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding-left: 5%;
+}
+
+input {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+
+    color: #000000;
+
+    border: none;
+}
+
+input:focus {
+    border-width: 2px;
+    outline: none;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    text-align: initial;
+
+    color: #9f9f9f;
+}
